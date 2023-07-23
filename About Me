@@ -9,6 +9,7 @@
     <header>
         <h1>About Me</h1>
     </header>
+<img width="30%" src="https://drive.google.com/file/d/11kYOtJs5PvZrX9Z_FzpybwrYNzTCxGpY/view?usp=share_link" />
     <main>
         <section>
             <h2>Introduction</h2>
@@ -25,9 +26,12 @@
             <p>Wacthing K-dramas and culinary.</p>
         </section>
     </main>
+           <h2>Reach Me Out</h2>
     <footer>
         <p>Email: Sulthanrazin54131@gmail.com</p>
         <P>Phone Number : 0882-1452-2941</p>
+        <P>Instagram :@sulthanfarras27
+        <a href="https://www.google.com/">Klik di sini untuk ke halaman Google</a>
     </footer>
 </body>
 </html>

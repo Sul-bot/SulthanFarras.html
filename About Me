@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perkenalan Diri</title>
+    <title>Hii People</title>
 </head>
 <body>
     <header>
@@ -11,16 +11,14 @@
     </header>
     <main>
         <section>
-            <h2>introduction</h2>
+            <h2>Introduction</h2>
             <p>Name: Sulthan Farras Razin</p>
             <p>Age: 18 tahun</p>
             <p>Status: Mahasiswa</p>
         </section>
         <section>
             <h2>Current Education</h2>
-            <ul>
-                <li>Computer Science, IPB University</li>
-            </ul>
+                <li>Computer Science, IPB University</li>           
         </section>
         <section>
             <h2>Hobby</h2>
@@ -28,7 +26,8 @@
         </section>
     </main>
     <footer>
-        <p>Email: john.doe@example.com</p>
+        <p>Email: Sulthanrazin54131@gmail.com</p>
+        <P>Phone Number : 0882-1452-2941</p>
     </footer>
 </body>
 </html>

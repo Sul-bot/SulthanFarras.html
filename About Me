@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan Diri</title>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <main>
+        <section>
+            <h2>introduction</h2>
+            <p>Name: Sulthan Farras Razin</p>
+            <p>Age: 18 tahun</p>
+            <p>Status: Mahasiswa</p>
+        </section>
+        <section>
+            <h2>Current Education</h2>
+            <ul>
+                <li>Computer Science, IPB University</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Hobby</h2>
+            <p>Wacthing K-dramas and culinary.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Email: john.doe@example.com</p>
+    </footer>
+</body>
+</html>

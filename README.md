@@ -1,2 +1,0 @@
-# SulthanFarras.html
-Tugas Ilkomerz

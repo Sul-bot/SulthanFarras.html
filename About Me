@@ -1,6 +1,96 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        /* Your CSS styles here */
+              /* Styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Styling for the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Styling for the main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Styling for sections */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Styling for headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Styling for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling for footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Styling for contact details */
+p {
+    margin: 0.5rem 0;
+}
+
+/* Styling for CV link */
+a.cv-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a.cv-link:hover {
+    background-color: #0056b3;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+}
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hii People</title>
@@ -9,39 +99,50 @@
     <header>
         <h1>About Me</h1>
     </header>
-<img width="80%" src="https://bit.ly/3laVBck" />
     <main>
+        <img src="image 1.png" alt="minimal indihome">
         <section>
             <h2>Introduction</h2>
             <p>Name: Sulthan Farras Razin</p>
             <p>Age: 18 tahun</p>
             <p>Status: Mahasiswa</p>
-            <P>Live in Bekasi</P>
-            <p>Interest : Product Manager, UI/UX </p>
+            <p>Live in Bekasi</p>
+            <p>Interest: Product Manager, UI/UX</p>
         </section>
         <section>
             <h2>Current Education</h2>
-                <p>Computer Science, IPB University</p>           
+            <p>Computer Science, IPB University</p>
         </section>
         <section>
             <h2>Hobby</h2>
-            <p>Wacthing K-dramas and culinary.</p>
+            <li>Watching K-dramas and culinary</li>
+            <li>Coding and Playing Game</li>
+        </section>
+        <section>
+            <h2>Reach Me Out</h2>
+            <p>Email: Sulthanrazin54131@gmail.com</p>
+            <p>Phone Number: 0882-1452-2941</p>
+            <p>Instagram: @sulthanfarras27</p>
+            <p>Twitter: @bobaandulu</p>
+        </section>
+        <section>
+            <h2>Professional Field</h2>
+            <p><a class="cv-link" href="https://drive.google.com/file/d/10xehFm_n4IylbhywOQt_y--fLEab5v7K/view?usp=share_link" id="cv-link">CV</a></p>
         </section>
     </main>
-         </section>
-           <h2>Reach Me Out</h2>
-        </section>
-        <p>Email: Sulthanrazin54131@gmail.com</p>
-        <P>Phone Number : 0882-1452-2941</p>
-        <P>Instagram :@sulthanfarras27
-        <footer>
-       </section>
-      </main>
-       </section>
-      <h2>Prefesional Field </h2>
-       </section>
-       <P>CV</P> 
-         <a href="https://drive.google.com/file/d/10xehFm_n4IylbhywOQt_y--fLEab5v7K/view?usp=share_link">Here my Curiculum vitae</a
+    <footer>
+        <!-- Your footer content here -->
     </footer>
+
+    <script>
+        // JavaScript code here
+        const cvLink = document.getElementById('cv-link');
+        cvLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            alert("You clicked on the CV link!");
+            // You can also use window.open to open the CV link in a new tab/window:
+            // window.open(this.href, '_blank');
+        });
+    </script>
 </body>
-</html
+</html>
